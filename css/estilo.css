@@ -1,0 +1,629 @@
+* {
+	box-sizing: border-box;
+	font-family: helvetica;
+
+
+}
+
+	body {
+		background-color: #EBEBEB;
+	}
+
+
+
+
+
+/*  dispositivos grandes  */
+
+@media (min-width: 992px) {
+
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+
+		float: left;
+	
+		
+
+	}
+
+	.col-lg-1 {
+		width: 8.33%;
+	}
+
+	.col-lg-2 {
+		width: 16.66%;
+	}
+
+	.col-lg-3 {
+		width: 25%;
+	}
+
+	.col-lg-4 {
+		width: 33%;
+	}
+
+	.col-lg-5 {
+		width: 41.66%;
+	}
+
+	.col-lg-6 {
+		width: 50%;
+	}
+
+	.col-lg-7 {
+		width: 58.33%;
+	}
+
+	.col-lg-8 {
+		width: 66.66%;
+	}
+
+	.col-lg-9 {
+		width: 74.99%;
+	}
+
+	.col-lg-10 {
+		width: 83.33%;
+	}
+
+	.col-lg-11 {
+		width: 91.66%;
+	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
+
+
+	.info-size-lg {
+		/* width: 40%;
+		margin-left: 30%; */
+	}
+
+	.cabecera-size-lg {
+		
+		margin-left: 36%;
+	}
+
+	/* Info redes web tamaño escritorio   */
+
+
+	.link-fb  {
+		margin-right:  10px;
+		margin-bottom: 20px;
+	}
+
+	.link-insta {
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+
+
+
+	.fb {
+	
+	width: 50%;
+	float: left;
+	
+	}
+
+	.insta {
+	width: 50%;
+	float: right;
+	}
+
+	.link-fb {
+	float: right;
+	}
+
+
+	.link-insta {
+		float: left;
+	}
+
+
+
+
+	.link-you  {
+		margin-right:  10px;
+	}
+
+	.link-web {
+		margin-left: 10px;
+	}
+
+
+
+	.you {
+	
+	width: 50%;
+	float: left;
+	
+	}
+
+	.web {
+	width: 50%;
+	float: right;
+	}
+
+	.link-you {
+	float: right;
+	}
+
+
+	.link-web {
+		float: left;
+	}
+
+}
+ 
+
+/*  dispositivos medianos  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+
+		float: left;
+		
+
+	}
+
+	.col-md-1 {
+		width: 8.33%;
+	}
+
+	.col-md-2 {
+		width: 16.66%;
+	}
+
+	.col-md-3 {
+		width: 25%;
+	}
+
+	.col-md-4 {
+		width: 33%;
+	}
+
+	.col-md-5 {
+		width: 41.66%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-7 {
+		width: 58.33%;
+	}
+
+	.col-md-8 {
+		width: 66.66%;
+	}
+
+	.col-md-9 {
+		width: 74.99%;
+	}
+
+	.col-md-10 {
+		width: 83.33%;
+	}
+
+	.col-md-11 {
+		width: 91.66%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+
+
+
+	.info-size-md {
+		/* width: 100%; */
+	}
+
+
+	.cabecera-size-md {
+		
+		margin-left: 33%;
+	}
+
+
+
+/* Info redes web tamaño escritorio   */
+
+
+	.link-fb  {
+		clear: both;
+		margin-left: 28%;
+		margin-bottom: 20px;
+	}
+
+	.link-insta {
+		margin-left: 28%;
+		margin-bottom: 20px;
+	}
+
+
+	.link-you  {
+		clear: both;
+		margin-left: 28%;
+		margin-bottom: 20px;
+	}
+
+	.link-web {
+		margin-left: 28%;
+	}
+
+	
+
+} 
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+	.fb {
+	clear: both;
+
+	margin-bottom: 20px;
+	
+	
+	}
+
+	.insta {
+	
+	clear: both;
+	margin-bottom: 20px;
+
+	}
+
+	.link-fb {
+		margin-left: 6%;
+	}
+
+	.link-insta {
+		margin-left: 6%;
+	}
+
+
+
+	.you {
+	clear: both;
+
+	margin-bottom: 20px;
+	
+	
+	}
+
+	.web {
+	
+	clear: both;
+
+	}
+
+	.link-you {
+		margin-left: 6%;
+	}
+
+	.link-web {
+		margin-left: 6%;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* ESTILO */
+
+
+
+
+
+.contenedor {
+	height: 100px;
+	width: 100%;
+
+	background-color: white;
+
+	position: relative;
+
+
+	
+
+}
+
+.cabecera {
+	
+	height: 100px;
+
+	
+	position: absolute;
+
+}
+
+.cabecera > img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.cabecera > p {
+	font-size: 22px;
+	padding-top: 10px;
+
+	float: left;
+
+}
+
+.calificacion {
+	margin:0;
+	padding: 0;
+	
+	position: absolute;
+	left: 80px;
+	top: 40px;
+	
+
+
+
+}
+
+.calificacion > p {
+	font-size: 12px;
+
+}
+
+.calificacion a:link {
+	color: black;
+	font-size: 10px;
+}
+
+.info {
+	
+	position: relative;
+	text-align: center;
+
+
+	
+} 
+
+.info > img {
+	margin-top: 40px;
+
+}
+
+.info > h3 {
+margin-top: 5px;
+	margin-bottom: -10px;
+}
+.info > p {
+	font-size: 10px;
+	padding-top: -10px;
+	
+	padding-top: 0;
+	
+}
+
+.calificacion-asesor  a:link {
+	color: black;
+	font-size: 12px;
+} 
+
+.descripcion-asesor {
+	text-align: center;
+	
+	margin:0;
+	padding: 0;
+}
+
+
+
+.cont-prop-1 {
+	
+	width: 50%;
+	float: left;
+	position: relative;
+		margin-bottom: 20px;
+}
+
+.cont-prop-2 {
+
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+.prop-venta {
+	background-color: white;
+	width: 180px;
+	height: 180px;
+	border-radius: 30px;
+	float: right;
+	margin-right: 10px;
+	
+	
+}
+
+.prop-venta > img {
+	margin-top: 25px;
+}
+
+.prop-renta {
+	background-color: white;
+	width: 180px;
+	height: 180px;
+	border-radius: 30px;
+	margin-left: 10px;
+	
+}
+
+.prop-renta > img {
+	margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Info redes y web  */
+
+
+
+
+
+.link-fb {
+	height: 70px;
+	width: 375px;
+	background-color: white;
+	border-radius: 20px;
+	
+}
+
+.link-fb > img {
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.link-fb > a {
+	float: left;
+	margin-top: 12px;
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+
+
+
+}
+
+.link-fb > a {
+
+}
+
+.ver-fb {
+	float: right;
+	margin-top: 24px;
+	margin-right: 25px;
+
+}	
+
+
+
+
+
+
+.link-insta {
+	width: 375px;
+	height: 70px;
+	background-color: white;
+	border-radius: 20px; 
+
+
+
+
+}	
+
+.link-insta >img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	}
+
+
+.link-insta > p {
+	float: left;
+	margin-top: 28px;
+	margin-left: 15px;
+}
+
+.ver-insta > img {
+	float: right;
+	margin-right: 20px;
+	margin-top: 25px;
+
+}
+
+
+
+
+
+.link-you {
+	height: 70px;
+	width: 375px;
+	background-color: white;
+	border-radius: 20px;
+	
+}
+
+.link-you > img {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.link-you > p {
+	float: left;
+	margin-top: 28px;
+	margin-left: 15px;
+
+
+}
+
+.ver-you {
+	float: right;
+	margin-top: 24px;
+	margin-right: 25px;
+
+}	
+
+
+
+
+
+.link-web {
+	height: 70px;
+	width: 375px;
+	background-color: white;
+	border-radius: 20px;
+	
+}
+
+.link-web > img {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.link-web > p {
+	float: left;
+	margin-top: 28px;
+	margin-left: 15px;
+
+
+}
+
+.ver-web {
+	float: right;
+	margin-top: 24px;
+	margin-right: 25px;
+
+}	
